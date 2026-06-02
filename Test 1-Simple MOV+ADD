@@ -1,0 +1,4 @@
+MOV AX, 5
+MOV BX, 3
+ADD AX, BX
+; Expected: AX = 8, ZF = 0
