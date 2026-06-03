@@ -1,0 +1,5 @@
+MOV AX, 10
+PUSH AX
+MOV AX, 0
+POP AX
+; Expected: AX = 10
