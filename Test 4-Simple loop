@@ -1,0 +1,7 @@
+MOV AX, 1
+MOV CX, 3
+loop:
+MUL CX
+DEC CX
+JNZ loop
+; Expected: AX = 6
