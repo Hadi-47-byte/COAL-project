@@ -1,0 +1,3 @@
+MOV AX, 5
+SUB AX, 5
+; Expected: AX = 0, ZF = 1
