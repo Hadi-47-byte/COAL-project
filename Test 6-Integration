@@ -1,0 +1,10 @@
+Member 1 output          →       Member 2 input
+CPU state object                 UI reads this object
+
+example object Member 1 should give you:
+{
+  registers: { AX: 8, BX: 3, CX: 0... },
+  flags: { ZF: 0, CF: 0, SF: 0, OF: 0 },
+  memory: { 0x00: 5, 0x01: 3... },
+  currentLine: 2
+}
