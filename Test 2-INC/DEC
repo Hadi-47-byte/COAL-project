@@ -1,0 +1,5 @@
+MOV AX, 0
+INC AX
+INC AX
+DEC AX
+; Expected: AX = 1
