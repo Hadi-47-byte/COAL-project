@@ -1,0 +1,16 @@
+Bug #1
+- Instruction: MUL AX, 0
+- Expected: AX = 0, ZF = 1
+- Got: AX = 0, ZF = 0
+- Assigned to: Member 1
+- Status: Open
+
+Bug #2
+- Page breaks on small screen
+- Assigned to: Member 2
+- Status: Fixed
+
+MOV ✅  ADD ✅  SUB ✅  INC ✅  DEC ✅
+MUL ✅  DIV ✅  AND ✅  OR ✅   XOR ✅
+NOT ✅  JMP ✅  JZ ✅   JNZ ✅  PUSH ✅
+POP ✅  CALL ✅ RET ✅
